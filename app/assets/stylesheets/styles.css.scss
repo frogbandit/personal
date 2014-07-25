@@ -1,4 +1,4 @@
-
+/*
 @import 'bootstrap';
 body{
     padding-top: 0px;	
@@ -6,18 +6,27 @@ body{
 
 
 .logo {
-	/*display:block;*/
-	margin-left:auto;
-	margin-right:auto;
-	vertical-align: middle;
-
 }
 
 
 .footer{
     margin-top: 0px;
+    margin-left:auto;
+    margin-right:auto;
+    vertical-align: middle;
+
     color: $gray-light;
     a{
         color: $gray;
     }
 }
+
+.header{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.col-centered{
+
+}*/

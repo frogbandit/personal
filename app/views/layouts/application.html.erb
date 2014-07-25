@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+
   <title>James Xue</title>
-  <meta name="description" content="James Xue - Developer, Designer, Photographer, Free Spirit"/>
+
+ <!--  <meta name="description" content="James Xue - Developer, Designer, Photographer, Free Spirit"/>
   <meta name="keywords" content="james xue freelance ui ux experience designer design web developer website creation">
   <link rel="shortcut icon" href="/favicon.ico">
-
+ -->
 
 
 
@@ -14,21 +16,21 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 
-<div class = 'logo'> <%= image_tag "/assets/name.png" %> </div>
+<div class = 'logo'> <center><%= image_tag "/assets/name.png" %> </center></div>
 
 </head>
 <body>
 
-<div class = "container">
+<div class = "header" ><center>
 <%= render 'layouts/header' %>
-</div>
+</center></div>
 
 
-<div class = "container">
+<div class = "footer"><center>
 
 	<%= yield %>
 	<%= render 'layouts/footer' %>
-</div>
+</center></div>
 
 </body>
 </html>
